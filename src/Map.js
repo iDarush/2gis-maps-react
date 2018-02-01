@@ -1,6 +1,7 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import DG from '2gis-maps';
-import MapComponent from './MapComponent'
+import MapComponent from './MapComponent';
 
 export default class Map extends MapComponent {
     static propsTypes = {
